@@ -7,7 +7,11 @@ export default function Category({
 }) {
   return (
     <div
-      className={currentCategory==category?"category category-activated":"category"}
+      className={
+        currentCategory === category
+          ? "category category-activated"
+          : "category"
+      }
       onClick={() => {
         categoryHandler(category);
       }}
