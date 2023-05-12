@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Main from "./components/Main";
+import Main from "./components/pages/mainPage/Main";
 import { Routes,Route } from "react-router-dom";
-import Details from "./components/Details";
+import Details from "./components/pages/productDetailsPage/Details";
 
 function App() {
   const [currentCategory, setCategory] = useState("");
