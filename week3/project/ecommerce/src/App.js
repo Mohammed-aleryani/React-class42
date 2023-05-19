@@ -3,7 +3,7 @@ import "./App.css";
 import Main from "./components/pages/mainPage/Main";
 import { Routes, Route } from "react-router-dom";
 import Details from "./components/pages/productDetailsPage/Details";
-import { FavoriteProvider } from "./FavoriteContext";
+import { FavoriteProvider } from "./components/FavoriteContext/FavoriteContext";
 import Favorites from "./components/pages/favorite/Favorites";
 
 function App() {

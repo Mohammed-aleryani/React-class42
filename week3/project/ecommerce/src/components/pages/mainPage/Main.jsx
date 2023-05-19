@@ -1,5 +1,5 @@
 import React from "react";
-import Categories from "./Categories-list";
+import Categories from "./Categories";
 import Products from "./Products";
 import Alert from "./Alert";
 import { Link } from "react-router-dom";

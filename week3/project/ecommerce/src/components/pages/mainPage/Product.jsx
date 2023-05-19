@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as Heart } from "../../../assets/heart-regular.svg";
 import { ReactComponent as HeartSolid } from "../../../assets/heart-solid.svg";
-import { FavoritesContext } from "../../../FavoriteContext";
+import { FavoritesContext } from "../../FavoriteContext/FavoriteContext";
 
 export default function Product({ product, setSelectedProduct }) {
   const [favorites, handleFavorites] = useContext(FavoritesContext);

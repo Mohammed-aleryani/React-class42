@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ReactComponent as Heart } from "../../../assets/heart-regular.svg";
 import { ReactComponent as HeartSolid } from "../../../assets/heart-solid.svg";
-import { FavoritesContext } from "../../../FavoriteContext";
+import { FavoritesContext } from "../../FavoriteContext/FavoriteContext";
 const Details = ({ SelectedProduct }) => {
   const [favorites, handleFavorites] = useContext(FavoritesContext);
   return (

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Product from "../mainPage/Product";
-import { FavoritesContext } from "../../../FavoriteContext";
+import { FavoritesContext } from "../../FavoriteContext/FavoriteContext";
 
 const Favorites = ({ products }) => {
   const [favorites, handleFavorites] = useContext(FavoritesContext);
